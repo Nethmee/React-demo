@@ -13,8 +13,8 @@ return (
     </div>
     <div  className="description">
 
-        <h6>{props.Title}</h6>
-        <p>{props.Description}</p>
+        <h6>{props.todo.title}</h6>
+        <p>{props.todo.description}</p>
     </div>
     <div  className="delete-item">
         <button>X</button>
