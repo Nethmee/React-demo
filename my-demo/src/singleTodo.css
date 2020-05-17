@@ -1,0 +1,55 @@
+.single-todo{
+
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-width:60px;
+    background-color:#AAB5BD;
+    margin:0;
+    border-bottom-color: #505A66;
+    border-bottom-style: solid;
+    padding:2%;
+    box-sizing:border-box;
+    height:60px;
+    white-space: normal;
+
+    text-overflow: ellipsis;
+}
+
+.check-item{
+
+    flex:1;
+}
+.check-item  input[type='checkbox']{
+    width: 1.5em;
+    height:2.5em;
+}
+
+.delete-item{
+
+    flex:1;
+}
+
+.description{
+flex:5;
+align-content: center;
+
+
+}
+.description p{
+    color:#7F9BAA;
+    font-size: 8px;
+    position: relative;
+    margin-top: 0%;
+    
+    }
+
+.description h6{
+
+    color:#505A66;
+    margin-top: 0px;
+    font-size:15px;
+    margin-bottom: 0px;
+
+ }
+    
